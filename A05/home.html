@@ -1,91 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>A04 Home Page</title>
+	<title> A05 Home Page</title>
 	<link rel="stylesheet" type="text/css" href="myStyles.css">
 </head>
 <body>
-<table id="mainTable">
-	<tr>
-	<td id="header" colspan="2">
-	<h1>Matt Cieslak's Assignment Website</h1>
-	</td>
-	</tr>
+	<header id="header" class="block">
+		<h1>Matt Cieslak's Assignment Website</h1>
+	</header>
 
-	<tr>
-		<td id="navBar" colspan="2">
-			<a href="home.html">Home</a> 
+	<nav id="navBar" class="block">
+					<a href="home.html">Home</a> 
 			<a href="forms.html">Forms</a>
-		</td>
-	</tr>
+	</nav>
+	
+	<section id="wrapper" class="block">
+	<aside id="sidebar" class="block">
+		<h3>Summary Window</h3><br/>
+		To the right are two tables.<br/>
+		One is borderless, one is bordered.<br/>
+		<br/>
+		Below that are several lists; ordered, <br/>
+		unordered, and description.
+	</aside>
 
-	<tr id="contentRow">
-		<td id="sidebar">
-			<h3>Summary Window</h3><br/>
-			To the right are two tables.<br/>
-			One is borderless, one is bordered.<br/>
-			<br/>
-			Below that are several lists; ordered, <br/>
-			unordered, and description.
-		</td>
-
-		<td id="contentCell">
-			<h3>Home Page</h3>
-			<table width="300" border="0">
-				<thead>Borderless Table Header</thead>
-				<caption>Borderless Table Caption</caption>
-				<tr>
-					<td>r1c1</td><td>r1c2</td><td>r1c3</td>
-				</tr>
-				<tr>
-					<td>r2c1</td><td>r2c2</td><td>r2c3</td>
-				</tr>
-			</table>
-			<br/>
-
-			<table width="300" border="1">
-				<thead>Bordered Table Header</thead>
-				<caption>Bordered Table Caption</caption>
-				<tr>
-					<td>r1c1</td><td>r1c2</td><td>r1c3</td>
-				</tr>
-				<tr>
-					<td>r2c1</td><td>r2c2</td><td>r2c3</td>
-				</tr>
-					
-			</table>
-			<br/>
-			
-			<ol>
-				<li>Item 1</li>
-				<li>Item 2</li>
-			</ol>
+	<section id="contentCell" class="block">
+		<h3>Home Page</h3>
+		<table width="300" border="0">
+			<thead>Borderless Table Header</thead>
+			<caption>Borderless Table Caption</caption>
+			<tr>
+				<td>r1c1</td><td>r1c2</td><td>r1c3</td>
+			</tr>
+			<tr>
+				<td>r2c1</td><td>r2c2</td><td>r2c3</td>
+			</tr>
+		</table>
+		<br/>
+		<table width="300" border="1">
+			<thead>Bordered Table Header</thead>
+			<caption>Bordered Table Caption</caption>
+			<tr>
+				<td>r1c1</td><td>r1c2</td><td>r1c3</td>
+			</tr>
+			<tr>
+				<td>r2c1</td><td>r2c2</td><td>r2c3</td>
+			</tr>
+				
+		</table>
+		<br/>
 		
-			<ul>
-				<li>Unordered Item</li>
-				<li>Unordered Item</li>
-			</ul>
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ol>
+	
+		<ul>
+			<li>Unordered Item</li>
+			<li>Unordered Item</li>
+		</ul>
+		<dl>
+			<dt>Ordered Lists</dt>
+			<dd>Are numbered</dd>
 
-			<dl>
-				<dt>Ordered Lists</dt>
-				<dd>Are numbered</dd>
+			<dt>Unordered Lists</dt>
+			<dd>Are not numbered</dd>
+		</dl>
+	</section>
+	</section>
 
-				<dt>Unordered Lists</dt>
-				<dd>Are not numbered</dd>
-			</dl>
-		</td>
-	</tr>
-
-	<tfoot>
-		<tr>
-		<td id ="footer" colspan="2">Created by Matt Cieslak</td>
-		</tr>
-	</tfoot>
-
-</table>
+	<footer id="footer" class="block">
+		Created by Matt Cieslak
+	</footer>
 </body>
 </html>
-
-
-
-
