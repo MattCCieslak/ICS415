@@ -1,0 +1,41 @@
+html{
+	height:100%;
+	width:100%;
+}
+body{
+	color:#B0B0B0;
+	background-image:url('Background_Black.jpg');
+	background-color:grey;
+	background-position:center;
+	height:100%;
+	width:100%;
+}
+#mainTable{
+	height:100%;
+	width:100%;
+}
+#header{
+	height:25%;
+	text-align:center;
+}
+#navBar{
+	height:50px;
+	width:100%;
+}
+#sidebar{
+	width:25%;
+	vertical-align:top;
+}
+#contentCell{
+	vertical-align:top;
+}
+td{
+	border-style:solid;
+	border-color:#404040;
+}
+tfoot{
+	height:50px;
+}
+#footer{
+	text-align:center;
+}
