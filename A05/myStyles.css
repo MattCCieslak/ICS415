@@ -1,11 +1,11 @@
 html{
-	height:100%;
-	width:100%;
+	height:99.6%;
+	width:99.6%;
 }
 body{
 	color:#B0B0B0;
 	background-image:url('Background_Black.jpg');
-	background-color:grey;
+	background-color:black;
 	background-position:center;
 	height:100%;
 	width:100%;
@@ -19,28 +19,31 @@ body{
 }
 #header{
 	height:25%;
+	width:100%;
 	text-align:center;
-	vertical-align:middle;
 }
 #navBar{
-	vertical-align:middle;
 	height:50px;
 	width:100%;
 }
 #wrapper{
+	height:61%;
 	border-style:none;
-	height:25%;
+	margin:0px;
+	padding:0px;
 }
 #sidebar{
 	width:24%;
-	height:100%;
+	height:60%;
 	position:absolute;
 	left:1px;
+	margin:0px;
 	vertical-align:baseline;
 }
 #contentCell{
 	width:74%;
-	height:100%;
+	height:60%;
+	margin:0px;
 	position:absolute;
 	right:1px;
 	vertical-align:baseline;
@@ -48,7 +51,5 @@ body{
 #footer{
 	width:100%;
 	height:50px;
-	position:absolute;
-	bottom:1px;
 	text-align:center;
 }
