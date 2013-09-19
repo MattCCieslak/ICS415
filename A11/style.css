@@ -1,0 +1,16 @@
+body {
+  width: 960px;
+}
+
+h3, h4{
+  text-align:center;
+}
+
+.wrapper {
+  margin: 0px 20px;
+}
+
+dt {
+  display: list-item;
+  list-style-type: disc;
+}

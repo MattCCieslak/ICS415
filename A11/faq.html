@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A11 FAQ</title>
+    <!-- stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>    
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <h3>Some Frequently Asked Questions from <a href="http://www.hwg.org/resources/faqs/cssFAQ.html">The HTML Writers Guild</a></h2>
+    <h4>Click a question to toggle the visibility of its answer.</h4>
+
+    <div class="wrapper">
+    <dl>
+        <dt>What is CSS?</dt>
+        <dd>CSS stands for Cascading Style Sheets and is a simple styling language which allows attaching style to HTML elements. Every element type as well as every occurance of a specific element within that type can be declared an unique style, e.g. margins, positioning, color or size.</dd>
+
+        <dt>What are Style Sheets?</dt>
+        <dd>Style Sheets are templates, very similar to templates in desktop publishing applications, containing a collection of rules declared to various selectors (elements).</dd>
+
+        <dt>What is external Style Sheet? How to link?</dt>
+        <dd><p>External Style Sheet is a template/document/file containing style information which can be linked with any number of  HTML documents. This is a very convenient way of formatting the entire site as well as restyling it by editing just one file.</P>
+            <p>The file is linked with HTML documents via the LINK element inside the HEAD element. Files containing style information must have extension <code>.css</code>, e.g. <code>style.css</code>.</p>
+            <p><code>
+            &lt;HEAD&gt;<br>
+            &lt;LINK REL=STYLESHEET HREF="style.css" TYPE="text/css"&gt;<br>
+            &lt;/HEAD&gt;</code></p>
+        </dd>
+        
+        <dt>What is embedded style? How to link?</dt>
+        <dd><P>Embedded style is the style attached to one specific document. The style information is specified as a content of the <code>STYLE</code> element inside the <code>HEAD</code> element and will apply to the entire document.</P>
+            <p><code>
+            &lt;HEAD&gt;<br>
+            &lt;STYLE TYPE="text/css"&gt;<br>
+            &lt;!--<br>
+            P {text-indent: 10pt}<br>
+            --&gt;<br>
+            &lt;/STYLE&gt;<br>
+            &lt;/HEAD&gt;</code>
+            </p>
+            <p>
+            Note: The styling rules are written as a HTML comment, that is, between &lt;!-- and --&gt; to hide the content in browsers without CSS support which would otherwise be displayed.</p>
+        </dd>
+        
+        <dt>What is inline style? How to link?</dt>
+        <dd><p>Inline style is the style attached to one specific element. The style is specified directly in the start tag as a value of the <code>STYLE</code> attribute and will apply  exclusively to this specific element occurance. 
+            </p>
+            <p><code>
+            &lt;P STYLE="text-indent: 10pt"&gt;Indented paragraph&lt;/P&gt;
+            </code></p>
+        </dd>
+        
+    </dl>
+    </div>
+</body>
+</html>
