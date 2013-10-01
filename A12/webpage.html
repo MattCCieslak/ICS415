@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX in class assignment</title>
+	<!-- bootstrap load -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+	<!-- stylesheet load -->
+	<link rel="stylesheet" href="style.css">
+	<!--jquery load and own script -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script src="myScript.js"></script>
+</head>
+<body>
+	<!--<form id="form" name=”myForm”  onsubmit=”loadFrames()”>-->
+	URL here: <input id="urlInput" type="text"><br>
+	Tag to search for: <input id="tagInput" type="text"><br>
+	<input type="submit" value="Submit" onclick="loadFrames()">
+	</form>
+	<br>
+	<p id="output">Output here.</p>
+	<iframe class="small"></iframe>
+	<iframe class="middle"></iframe>
+</body>
+</html>

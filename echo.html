@@ -1,0 +1,34 @@
+gedit <!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script>
+		function phpPost() {
+			var formdata = $("#exampleform").serialize();
+
+			$.post("echo.php", formdata);//.fail(function() {
+//				alert("failed");
+//			}).done(function() {
+//				alert("done");
+//			}).always(function() {
+//				alert("always");
+//			});
+
+			return true;
+		}
+	</script>
+	<title>PHP form</title>
+</head>
+<body>
+
+	<form name="exampleform" action="echo.php" method="post">
+	<p>Username: <input type="text" name="username"></p>
+	<p>Password: <input type="password" name="pwd"></p>
+	<input type="radio" name="sex" value="male">Male<br>
+	<input type="radio" name="sex" value="female">Female<br>
+	<input type="submit" value="Submit">
+	</form>
+	<button onclick="phpPost()">Button!</button>
+</body>
+</html>
